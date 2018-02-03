@@ -5,13 +5,29 @@ For this week, I did additional study looking at the Terminal in Apple OS. I als
 
 ### Steps
 
-I followed Dr. Musick's tutorials on the course website for MART120. By paying close attention to the steps. I completed the files README.md and test1.txt by watching the tutorial videos, Explained! GitHub and What is GitHub? I also did a little experimentation with editing my files and checking back to the original repository.
+I followed Dr. Musick's tutorials on the course website for MART120. By paying close attention to the steps. (https://montana-media-arts.github.io/creative-coding-1/modules/week-2/working-with-git/) I completed the files README.md and test1.txt by watching the tutorial videos, _Explained! GitHub_ and _What is GitHub?_ I also did a little experimentation with editing my files and checking back to the original repository.
 ###### Issue
 While creating the repository for the GitHub Desktop I had moved the source file without realizing I would **break** the sync connection.
 ###### Solution
 I then had to troubleshoot and recreate the file and link the documents back into the correct places.
 
 
-## Additional Learning
+## Homework Assignments
+-Practice
+ -README.md
+ -test2.md
+-Regular
+1. test1.txt
+2. Text Markdown Homework Summary
 
-I want to learn more about text markup and do more practice with creating links within the markup.
+### Example Code block
+```HTML
+<H1>Code Block Heading<H1>
+<p>This is a code block used for example formatting purposes <p>
+</body>
+```
+## Aspirations
+I want to learn more about text markup and do more practice with creating links within the markup so that I can better understand web development.
+
+### Image of markup
+![Image of my editor](Test_2_markupJPG.jpg)
