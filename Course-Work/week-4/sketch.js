@@ -80,6 +80,7 @@ function draw(){
 //robot body (slightly (darker) color)
   fill(65, 65, 65);
   triangle(600, 700, 400, 300, 200, 600);
+  translate(10, 10),
 
 //accessory pannel accent (red)
   fill('red');
@@ -148,13 +149,13 @@ function draw(){
   fill(200, 200, 200);
   rect( 340, 280, 120, 35);
 //mouth stroke shading (bottom)
-  strokeWeight(5);
+//  strokeWeight(3);
   line( 340, 305, 459, 305 );
 //mouth stroke shading (top)
-  strokeWeight(4);
+//  strokeWeight(4);
   line( 340, 290, 459, 290 );
 //mouth stroke shading (middle)
-    strokeWeight (5);
+    strokeWeight (2);
     line( 340, 300, 459, 300 );
 //Red accent
   fill ('red');
