@@ -17,7 +17,7 @@ I reviewed the tutorials that were offered on p5.js and analyzed the sample code
 I was able to create my own code using the sample code text as a guide. I wanted to do a sketch that would paint itself but then could be somewhat erased and manipulated by the user.
 
 #### Images
-![](images/01.png)
-![](images/02.png)
-![](images/03.png)
-![](images/04.png)
+![01](images/01.png)
+![02](images/02.png)
+![03](images/03.png)
+![04](images/04.png)
