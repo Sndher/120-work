@@ -3,7 +3,6 @@ Shelby Decker
 # Animation & Variables
 
 
-["LIVE SKETCH"](https://katholmgren.github.io/120-work/hw-5/)
 ["LIVE SKETCH"](https://sndher.github.io/120-work/hw-5/)
 
 ##### Successes
