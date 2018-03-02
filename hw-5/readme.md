@@ -2,9 +2,9 @@
 Shelby Decker
 # Animation & Variables
 
-<a>file:///Users/shelby_decker/Desktop/GitHub/120-work/hw-5/index.html<a>
 
-<a name="file:///Users/shelby_decker/Desktop/GitHub/120-work/hw-5/index.html"></a>LIVE SKETCH
+["LIVE SKETCH"](https://katholmgren.github.io/120-work/hw-5/)
+["LIVE SKETCH"](https://sndher.github.io/120-work/hw-5/)
 
 ##### Successes
 I did well at the translation animations that revolved around the movement of the mouse cursor on the X and Y axis. I also successfully did some basic form resizing that revolved around mouse movement.
