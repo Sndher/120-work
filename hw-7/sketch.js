@@ -3,20 +3,20 @@
 //Set Size Constraints
 let ball = {};
 
-//size of the ball is (x amount of pixles wide)
+//size of the ball is (x amount of pixels wide)
 ball.width = 60;
 
 //determines starting location of ball animation on canvas position (x,y)
-ball.x = 30;
-ball.y = 30;
+ball.x = ( 600);
+ball.y = ( 400);
 
 // .delta determines at which angle the ball moves from
 ball.delta_x = 1;
 ball.delta_y = 1;
 
 //controls the speed of starting ball on the (x and y axis and minor control of position angle of movement)
-ball.scale_x = 3;
-ball.scale_y = 3;
+ball.scale_x = 10;
+ball.scale_y = 10;
 
 //starting setup function
 function setup() {
@@ -27,6 +27,9 @@ function setup() {
 
 
 function draw() {
+  textSize(30);
+  fill(255, 255, 255);
+  text( "Try Right Click", 40, 60 );
 
   //allows background to change activley
   if(mouseIsPressed){
