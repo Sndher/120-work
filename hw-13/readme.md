@@ -11,7 +11,7 @@ I watched The Coding Train sound tutorial videos for references and guides. I al
 ###Problems
 I have had a lot of struggle to get a sound file to play at all. I followed along with the Coding Train's tutorial videos along with other examples that I had found to see if I could even get the demonstration to work properly. I then tried the process again, but with using a local host server. I tried two different methods of local server and tried to troubleshoot chrome and firefox so that I would be able to allow the audio file. Still no success with sound files being implemented. I am not sure where I went wrong.
 
-##Change of Plans
+#Change of Plans
 Because of my struggle with sound I have come to a different approach. I have had success with getting image files implemented into my sketch so I am going that route for the final.
 
 ##Success
