@@ -1,4 +1,3 @@
-
 var img;
 //var specks = [];
 //var flakes = []; //declaring the array
@@ -39,7 +38,8 @@ image(img, 0,0);
 //}
 
 
-//function mousePressed(){
+function mousePressed(){
+  remove();
 push();
   scale(1.10);
   snowflake( 10, pos_y+50, -50);
@@ -48,9 +48,9 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
+}
 
-//function mousePressed(){
+
 push();
   scale(1.0);
   snowflake( 350, pos_y-200, -250);
@@ -59,9 +59,9 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
 
-//function mousePressed(){
+
+
 push();
   scale(.70);
   snowflake( 900, pos_y-200, -200);
@@ -70,9 +70,9 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
 
-//function mousePressed(){
+
+
 push();
   scale(1.5);
   snowflake( 100, pos_y-200, -1000);
@@ -81,9 +81,9 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
 
-//function mousePressed(){
+
+
 push();
   scale(1.7);
   snowflake( 400, pos_y-200, -600);
@@ -92,9 +92,9 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
 
-//function mousePressed(){
+
+
 push();
   scale(1);
   snowflake( 100, pos_y-200, -1000);
@@ -102,9 +102,9 @@ push();
   pos_y = pos_y + .1;
   // bound it to the height of the canvas
   pos_y = pos_y % height;
-//pop();
 
-//function mousePressed(){
+
+
 push();
   scale(1);
   snowflake( 700, pos_y-400, -0);
@@ -113,9 +113,8 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
 
-//function mousePressed(){
+
 push();
   scale(.5);
   snowflake( 450, pos_y+250, -300);
@@ -124,9 +123,9 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
 
-//function mousePressed(){
+
+
 push();
   scale(.8);
   snowflake( 600, pos_y-400, -300);
@@ -135,9 +134,9 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
 
-//function mousePressed(){
+
+
 push();
   scale(1.20);
   snowflake(475, pos_y+150, +600);
@@ -146,9 +145,9 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
 
-//function mousePressed(){
+
+
 push();
   scale(.20);
   snowflake(475, pos_y+150, +600);
@@ -157,7 +156,7 @@ push();
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
-//}
+
 }
 /////////////////////////////////////////
 
