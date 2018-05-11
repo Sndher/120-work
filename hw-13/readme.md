@@ -17,5 +17,8 @@ Because of my struggle with sound I have come to a different approach. I have ha
 ##Success
 I was able to easily implement an image to use for the background of my sketch! I did have to downsize the image so that it would reasonably fit within the canvas constraints.
 
+#Secondary Issues
+Could not get the snowflakes to fall at an individual rate where they would fall past the entire screen and regenerate at the top in a loop that was smooth. All of the snowflakes would disappear and then reappear at the same time during the beginning phase, but they would fall at different speeds due to the scale of the object.
+
 ##Goals for the Future
 I want to continue to explore with p5 and with its capability to manipulate sound even though I was not successful this project in that aspect. I would love to be able to get whatever I was struggling with to be sorted out so then I can continue to explore what can be done with audio using the p5 reference guide.

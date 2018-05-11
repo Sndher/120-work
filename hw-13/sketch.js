@@ -13,13 +13,6 @@ function preload(){
 
 function setup(){
   createCanvas(850,600);
-
-  //var numSnowflakes=30
-  //for (var i = 0; i < numSnowflakes; i++){
-  //  var x = random(-40, width-40);
-  //  var y = map(i, 0, numSnowflakes, -100, -200);
-  //  flakes[i] = new Flake(snowflakeImage, x, y);
-  //}
 }
 /////////////////////////////////////////
 
@@ -31,13 +24,78 @@ for (var i=0; i<flakes.length; i++){
   flakes[i].display();
 
 }
-
-  snowflake( 50, pos_y, -50);
-
-  // update the ellipses position
+push();
+  scale(1.10);
+  snowflake( 10, pos_y+50, -50);
+  // update the position
   pos_y = pos_y + 1.5;
-  // bound it to the width of the canvas
+  // bound it to the height of the canvas
   pos_y = pos_y % height;
+pop();
+
+push();
+  scale(1.0);
+  snowflake( 350, pos_y-200, -250);
+  // update the position
+  pos_y = pos_y + .5;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
+push();
+  scale(.70);
+  snowflake( 900, pos_y-200, -200);
+  // update the position
+  pos_y = pos_y + .5;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
+push();
+  scale(1.5);
+  snowflake( 100, pos_y-200, -1000);
+  // update the position
+  pos_y = pos_y + .5;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
+push();
+  scale(1.7);
+  snowflake( 400, pos_y-200, -600);
+  // update the position
+  pos_y = pos_y + .5;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
+push();
+  scale(1);
+  snowflake( 100, pos_y-200, -1000);
+  // update the position
+  pos_y = pos_y + .5;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
+push();
+  scale(1);
+  snowflake( 700, pos_y-400, -0);
+  // update the position
+  pos_y = pos_y + .5;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
+push();
+  scale(.5);
+  snowflake( 450, pos_y-200, -300);
+  // update the position
+  pos_y = pos_y + .5;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
 }
 /////////////////////////////////////////
 
