@@ -1,8 +1,7 @@
 
 var img;
-var snowflakeImage
 var flakes = []; //declaring the array
-let pos_y = 20
+let pos_y = (900)
 
 /////////////////////////////////////////
 
@@ -28,7 +27,7 @@ push();
   scale(1.10);
   snowflake( 10, pos_y+50, -50);
   // update the position
-  pos_y = pos_y + 1.5;
+  pos_y = pos_y + .5;
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
@@ -46,7 +45,7 @@ push();
   scale(.70);
   snowflake( 900, pos_y-200, -200);
   // update the position
-  pos_y = pos_y + .5;
+  pos_y = pos_y + .1;
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
@@ -55,7 +54,7 @@ push();
   scale(1.5);
   snowflake( 100, pos_y-200, -1000);
   // update the position
-  pos_y = pos_y + .5;
+  pos_y = pos_y + .1;
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
@@ -64,7 +63,7 @@ push();
   scale(1.7);
   snowflake( 400, pos_y-200, -600);
   // update the position
-  pos_y = pos_y + .5;
+  pos_y = pos_y + .1;
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
@@ -73,7 +72,7 @@ push();
   scale(1);
   snowflake( 100, pos_y-200, -1000);
   // update the position
-  pos_y = pos_y + .5;
+  pos_y = pos_y + .1;
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
@@ -82,20 +81,46 @@ push();
   scale(1);
   snowflake( 700, pos_y-400, -0);
   // update the position
-  pos_y = pos_y + .5;
+  pos_y = pos_y + .1;
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
 
 push();
   scale(.5);
-  snowflake( 450, pos_y-200, -300);
+  snowflake( 450, pos_y+250, -300);
+  // update the position
+  pos_y = pos_y + .1;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
+push();
+  scale(.8);
+  snowflake( 600, pos_y-400, -300);
+  // update the position
+  pos_y = pos_y + .1;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
+
+push();
+  scale(1.20);
+  snowflake(475, pos_y+150, +600);
   // update the position
   pos_y = pos_y + .5;
   // bound it to the height of the canvas
   pos_y = pos_y % height;
 pop();
 
+push();
+  scale(.20);
+  snowflake(475, pos_y+150, +600);
+  // update the position
+  pos_y = pos_y + .5;
+  // bound it to the height of the canvas
+  pos_y = pos_y % height;
+pop();
 }
 /////////////////////////////////////////
 
